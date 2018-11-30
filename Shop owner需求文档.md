@@ -58,15 +58,11 @@ Shop owner：
 
  
 
-![img](file:///C:/Users/Saberda/AppData/Local/Temp/msohtmlclip1/01/clip_image002.jpg)
+
 
  
 
- 
-
-![img](file:///C:/Users/Saberda/AppData/Local/Temp/msohtmlclip1/01/clip_image004.jpg)
-
- 
+ ![用户注册信息商家注册信息商品信息](C:\Users\Saberda\Documents\文件\项目管理\需求文档\image\用户注册信息商家注册信息商品信息.png)
 
  
 

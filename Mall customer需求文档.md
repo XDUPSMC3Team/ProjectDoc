@@ -20,7 +20,7 @@ Mall customer：
 
 2. 我又进入了新的一家手办店，根据评价显示该手办不错，于是**直接点击购买**，**这时弹出“您需要注册才能完成此操作”，于是我按照要求填写了name, tel. and address。**完成后**重新点击购买，转跳到支付页面，我通过支付宝（微信）成功付款。**
 
- 
+
 
 **付款结束后，显示成功付款**，点击页面中的“**查看我的订单**”，看到上面的手办信息处于“待处理”。买完手办后自己没钱了，很无聊，就不断的刷新**订单状态，看它从“待处理”，变到“商家正在处理” ->“运输中”**。
 
@@ -38,9 +38,9 @@ Mall customer：
 
 **几周/月/年后**，你的发小来你家玩，看到了这个手办，于是问你是在哪里买的，你又打开了贵电商网站，点击“**我的订单**”，在新的页面中进行**搜索历史订单**“saber手办”，向你的发小展示。
 
-![img](file:///C:/Users/Saberda/AppData/Local/Temp/msohtmlclip1/01/clip_image003.png)
+![img](C:\Users\Saberda\Documents\文件\项目管理\需求文档\image\收藏购买.png)
 
-![img](file:///C:/Users/Saberda/AppData/Local/Temp/msohtmlclip1/01/clip_image005.jpg)
+![img](C:\Users\Saberda\Documents\文件\项目管理\需求文档\image\确认收货.png)
 
  
 
