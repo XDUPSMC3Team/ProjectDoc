@@ -38,9 +38,9 @@ Mall customer：
 
 **几周/月/年后**，你的发小来你家玩，看到了这个手办，于是问你是在哪里买的，你又打开了贵电商网站，点击“**我的订单**”，在新的页面中进行**搜索历史订单**“saber手办”，向你的发小展示。
 
-![img](image\收藏购买.png)
+![img](https://github.com/XDUPSMC3Team/ProjectDoc/blob/master/image/%E6%94%B6%E8%97%8F%E8%B4%AD%E4%B9%B0.png)
 
-![img](image\确认收货.png)
+![img](https://github.com/XDUPSMC3Team/ProjectDoc/blob/master/image/%E7%A1%AE%E8%AE%A4%E6%94%B6%E8%B4%A7.png)
 
  
 
