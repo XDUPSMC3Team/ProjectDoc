@@ -115,5 +115,6 @@
 - sellerId
 - shopName
 - shopDesc 商家简介
+- status 商铺状态 0 表示正在受理中 1 表示受理成功 2 表示受理失败
 - create_time   开店日期
 - update_time
