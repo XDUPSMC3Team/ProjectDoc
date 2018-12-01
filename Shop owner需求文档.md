@@ -58,15 +58,11 @@ Shop owner：
 
  
 
-![img](file:///C:/Users/Saberda/AppData/Local/Temp/msohtmlclip1/01/clip_image002.jpg)
+
 
  
 
- 
-
-![img](file:///C:/Users/Saberda/AppData/Local/Temp/msohtmlclip1/01/clip_image004.jpg)
-
- 
+ ![用户注册信息商家注册信息商品信息](https://github.com/XDUPSMC3Team/ProjectDoc/blob/master/image/%E7%94%A8%E6%88%B7%E6%B3%A8%E5%86%8C%E4%BF%A1%E6%81%AF%E5%95%86%E5%AE%B6%E6%B3%A8%E5%86%8C%E4%BF%A1%E6%81%AF%E5%95%86%E5%93%81%E4%BF%A1%E6%81%AF.png)
 
  
 
