@@ -53,6 +53,7 @@
 - description 商品描述
 - create_time
 - update_time
+- status 商品状态 0 表示正常 1表示下架
 
 ## product_specs 商品详情表（指定规格商品SKU）
 
