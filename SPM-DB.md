@@ -64,13 +64,13 @@
 - create_time
 - update_time
 
-##attribute_key 商品属性key表
+##c 商品属性key表
 
 - id
 - category_id
 - attribute_key 属性key名称，例如：内存，颜色，尺码
 
-##attribute_value 商品属性value表
+##attribute_value a
 
 - id
 - attribute_id 属性key的id
@@ -110,3 +110,10 @@
 - create_time
 - update_time
 
+## shop 商家表
+- id
+- sellerId
+- shopName
+- shopDesc 商家简介
+- create_time   开店日期
+- update_time
