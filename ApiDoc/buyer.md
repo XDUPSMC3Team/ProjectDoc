@@ -20,6 +20,11 @@ password string
     "data": "Welcome, xxx"
 }
 ```
+字段解释
+
+```
+xxx: xxxxxx
+```
 
 ## 买家登录
 ```
@@ -42,3 +47,9 @@ password string
     "data": ""
 }
 ```
+字段解释
+
+```
+xxx: xxxxxx
+```
+
