@@ -109,4 +109,16 @@
 - price
 - create_time
 - update_time
+## product_collect 商品收藏表
+- id
+- buyer_id
+- product_id
+- create_time
+- update_time
 
+## shop_collect 店铺收藏表
+- id
+- buyer_id
+- shop_id
+- create_time
+- update_time
