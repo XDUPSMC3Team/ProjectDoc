@@ -53,6 +53,7 @@
 - description 商品描述
 - create_time
 - update_time
+- status 商品状态 0 表示正常 1表示下架
 
 ## product_specs 商品详情表（指定规格商品SKU）
 
@@ -64,13 +65,13 @@
 - create_time
 - update_time
 
-##attribute_key 商品属性key表
+##c 商品属性key表
 
 - id
 - category_id
 - attribute_key 属性key名称，例如：内存，颜色，尺码
 
-##attribute_value 商品属性value表
+##attribute_value a
 
 - id
 - attribute_id 属性key的id
@@ -121,4 +122,13 @@
 - buyer_id
 - shop_id
 - create_time
+- update_time
+
+## shop 商家表
+- id
+- seller_id
+- shop_name
+- shop_desc 商家简介
+- status 商铺状态 0 表示正在受理中 1 表示受理成功 2 表示受理失败
+- create_time   开店日期
 - update_time
