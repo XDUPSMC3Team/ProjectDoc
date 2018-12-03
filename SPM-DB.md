@@ -133,7 +133,7 @@
 - create_time   开店日期
 - update_time
 
-## 广告表
+## advertisement 广告表
 - id
 - name
 - link 广告链接地址
