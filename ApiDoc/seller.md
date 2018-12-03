@@ -78,7 +78,7 @@ POST /seller/product/{productId}
 
 ## 删除商品
 ```
-Delete /seller/product/{productId}
+Delete /seller/product/delete/{productId}
 ```
 ```
 无
