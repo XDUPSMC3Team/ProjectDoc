@@ -46,6 +46,7 @@
 ## product 商品主表（SPU）
 
 - id
+- shop_id  shop id
 - category_id 类别id
 - name 商品名
 - pic 商品图片
