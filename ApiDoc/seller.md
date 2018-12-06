@@ -147,3 +147,53 @@ POST /shop/shopDetail/{shopId}
 ```
 两个参数都为可选 ，如果为空，后端不做更改
 ```
+
+# 查找所有的类别
+
+```
+GET /category/categories
+```
+
+参数
+
+```
+
+```
+
+返回
+
+```
+{
+    "code": 0,
+    "msg": "success",
+    "data": [{
+        "id":,
+        "parentId":,
+        "name":
+    },]
+}
+```
+# 增加类别
+
+```
+GET /category/add
+```
+
+参数
+
+```
+{
+    "parentId":(int),
+    "name":
+}
+```
+
+返回
+
+```
+{
+    "code": 0,
+    "msg": "success",
+    "data": ""
+}
+```
