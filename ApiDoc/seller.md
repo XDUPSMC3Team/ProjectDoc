@@ -29,9 +29,11 @@ POST /seller/product
 
 ```
 {
-    categoryId,"",    // 商品分类id
+    categoryId:(int),    // 商品分类id
+    shopId:(int)    // shopid
     name:"",    // 商品名称
-    pic:"",    // 商品名称
+    pic:"",    // 商品图片
+    price: (double) // 商品价格
     description:"",   // 商品描述
     attributeList:"", // 属性选项
 }
@@ -55,9 +57,11 @@ POST /seller/product/{productId}
 
 ```
 {
-    categoryId,"",    // 商品分类id
+    categoryId:0,    // 商品分类id
+    shopId:0,
     name:"",    // 商品名称
-    pic:"",    // 商品名称
+    pic:"",    // 商品图片
+    price:, //价格
     description:"",   // 商品描述
     attributeList:"", // 属性选项
 }

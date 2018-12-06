@@ -46,8 +46,9 @@
 ## product 商品主表（SPU）
 
 - id
-- shop_id  shop id
-- category_id 类别id
+- shop_id  //shop id
+- category_id //类别id
+- price     // 商品价格
 - name 商品名
 - pic 商品图片
 - attribute_list 属性选项，例如：`{"memory":["4G", "8G"], "color":["red","black", "white"]}`
