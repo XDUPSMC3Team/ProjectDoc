@@ -46,13 +46,16 @@
 ## product 商品主表（SPU）
 
 - id
-- category_id 类别id
+- shop_id  //shop id
+- category_id //类别id
+- price     // 商品价格
 - name 商品名
 - pic 商品图片
 - attribute_list 属性选项，例如：`{"memory":["4G", "8G"], "color":["red","black", "white"]}`
 - description 商品描述
 - create_time
 - update_time
+- status 商品状态 0 表示正常 1表示下架
 
 ## product_specs 商品详情表（指定规格商品SKU）
 
@@ -64,13 +67,13 @@
 - create_time
 - update_time
 
-##attribute_key 商品属性key表
+##c 商品属性key表
 
 - id
 - category_id
 - attribute_key 属性key名称，例如：内存，颜色，尺码
 
-##attribute_value 商品属性value表
+##attribute_value a
 
 - id
 - attribute_id 属性key的id
@@ -109,4 +112,37 @@
 - price
 - create_time
 - update_time
+## product_collect 商品收藏表
+- id
+- buyer_id
+- product_id
+- create_time
+- update_time
 
+## shop_collect 店铺收藏表
+- id
+- buyer_id
+- shop_id
+- create_time
+- update_time
+
+## shop 商家表
+- id
+- seller_id
+- shop_name
+- shop_desc 商家简介
+- status 商铺状态 0 表示正在受理中 1 表示受理成功 2 表示受理失败
+- create_time   开店日期
+- update_time
+
+## advertisement 广告表
+- id
+- name
+- link 广告链接地址
+- pic 广告图片
+- content 内容
+- start_time 广告开始时间
+- end_time 广告结束时间
+- create_time 创建时间
+- update_time 更新时间
+- deleted 逻辑删除
