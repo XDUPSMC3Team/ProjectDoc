@@ -32,7 +32,7 @@ POST /seller/product
     categoryId:(int),    // 商品分类id
     shopId:(int)    // shopid
     name:"",    // 商品名称
-    pic:"",    // 商品图片
+    pic:"",    // 商品图片
     price: (double) // 商品价格
     description:"",   // 商品描述
     attributeList:"", // 属性选项
