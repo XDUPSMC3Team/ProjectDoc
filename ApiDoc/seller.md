@@ -201,3 +201,129 @@ GET /category/add
     "data": ""
 }
 ```
+
+# 增加attributeKey
+
+```
+POST /seller/attributeKey
+```
+
+参数
+
+```
+{
+    "categoryId":(int),
+    "attributeKey":""   // 颜色 内存
+}
+```
+
+返回
+
+```
+{
+    "code": 0,
+    "msg": "success",
+    "data": ""
+}
+```
+
+# 根据 categoryId 查找attributeKey
+
+```
+GET /seller/attributeKey/{categoryId}
+```
+
+参数
+
+```
+```
+
+返回
+
+```
+{
+    "code": 0,
+    "msg": "success",
+    "data": {{
+        "id":,
+        "categoryId":,
+        "attributeKey":
+    }}
+}
+```
+
+# 增加 一条 attributeValue
+
+```
+POST /seller/attributeValue
+```
+
+参数
+
+```
+{
+    "attributeKeyId":(int),
+    "attributeValue":""
+}
+```
+
+返回
+
+```
+{
+    "code": 0,
+    "msg": "success",
+    "data":""
+}
+```
+
+# 根据 attributeKey 查找 attributeValue
+
+```
+POST /seller/attributeValue/{attributeKey}
+```
+
+参数
+
+```
+
+```
+
+返回
+
+```
+{
+    "code": 0,
+    "msg": "success",
+    "data":{{
+        "id":,
+        "attributeKeyId":
+        "attributeValue":
+    }}
+}
+```
+# 增加一条productSpecs
+```
+POST /seller/productSpecs
+```
+
+参数
+
+```
+{
+    "productId":(int),
+    "detail":"",
+    "stock":(int),
+    "price":(double)
+}
+```
+
+返回
+
+```
+{
+    "code": 0,
+    "msg": "success",
+    "data":""
+}
+```
