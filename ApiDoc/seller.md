@@ -1,4 +1,30 @@
-## 买家登录
+## 卖家注册
+```
+POST /seller/register
+```
+
+参数
+
+```
+{
+    "realName":string
+    "phone":string
+    "email": string
+    "password": string
+    "address":(可选)string
+}
+```
+
+返回
+
+```
+{
+    "code": 0,
+    "msg": "success",
+    "data": ""
+}
+```
+## 卖家登录
 ```
 POST /seller/login
 ```
@@ -29,9 +55,11 @@ POST /seller/product
 
 ```
 {
-    categoryId,"",    // 商品分类id
+    categoryId:(int),    // 商品分类id
+    shopId:(int)    // shopid
     name:"",    // 商品名称
-    pic:"",    // 商品名称
+    pic:"",    // 商品图片
+    price: (double) // 商品价格
     description:"",   // 商品描述
     attributeList:"", // 属性选项
 }
@@ -55,9 +83,11 @@ POST /seller/product/{productId}
 
 ```
 {
-    categoryId,"",    // 商品分类id
+    categoryId:0,    // 商品分类id
+    shopId:0,
     name:"",    // 商品名称
-    pic:"",    // 商品名称
+    pic:"",    // 商品图片
+    price:, //价格
     description:"",   // 商品描述
     attributeList:"", // 属性选项
 }
@@ -78,7 +108,7 @@ POST /seller/product/{productId}
 
 ## 删除商品
 ```
-Delete /seller/product/{productId}
+Delete /seller/product/delete/{productId}
 ```
 ```
 无
@@ -142,4 +172,180 @@ POST /shop/shopDetail/{shopId}
 ```
 ```
 两个参数都为可选 ，如果为空，后端不做更改
+```
+
+# 查找所有的类别
+
+```
+GET /category/categories
+```
+
+参数
+
+```
+
+```
+
+返回
+
+```
+{
+    "code": 0,
+    "msg": "success",
+    "data": [{
+        "id":,
+        "parentId":,
+        "name":
+    },]
+}
+```
+# 增加类别
+
+```
+GET /category/add
+```
+
+参数
+
+```
+{
+    "parentId":(int),
+    "name":
+}
+```
+
+返回
+
+```
+{
+    "code": 0,
+    "msg": "success",
+    "data": ""
+}
+```
+
+# 增加attributeKey
+
+```
+POST /seller/attributeKey
+```
+
+参数
+
+```
+{
+    "categoryId":(int),
+    "attributeKey":""   // 颜色 内存
+}
+```
+
+返回
+
+```
+{
+    "code": 0,
+    "msg": "success",
+    "data": ""
+}
+```
+
+# 根据 categoryId 查找attributeKey
+
+```
+GET /seller/attributeKey/{categoryId}
+```
+
+参数
+
+```
+```
+
+返回
+
+```
+{
+    "code": 0,
+    "msg": "success",
+    "data": {{
+        "id":,
+        "categoryId":,
+        "attributeKey":
+    }}
+}
+```
+
+# 增加 一条 attributeValue
+
+```
+POST /seller/attributeValue
+```
+
+参数
+
+```
+{
+    "attributeKeyId":(int),
+    "attributeValue":""
+}
+```
+
+返回
+
+```
+{
+    "code": 0,
+    "msg": "success",
+    "data":""
+}
+```
+
+# 根据 attributeKey 查找 attributeValue
+
+```
+POST /seller/attributeValue/{attributeKey}
+```
+
+参数
+
+```
+
+```
+
+返回
+
+```
+{
+    "code": 0,
+    "msg": "success",
+    "data":{{
+        "id":,
+        "attributeKeyId":
+        "attributeValue":
+    }}
+}
+```
+# 增加一条productSpecs
+```
+POST /seller/productSpecs
+```
+
+参数
+
+```
+{
+    "productId":(int),
+    "detail":"",
+    "stock":(int),
+    "price":(double)
+}
+```
+
+返回
+
+```
+{
+    "code": 0,
+    "msg": "success",
+    "data":""
+}
 ```
