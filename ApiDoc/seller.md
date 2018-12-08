@@ -32,7 +32,7 @@ POST /seller/login
 参数
 
 ```
-email string
+username string
 password string
 ```
 
