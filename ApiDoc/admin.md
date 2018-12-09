@@ -70,7 +70,7 @@ GET /admin/personal/appliedShops
 {
     "code": 0,
     "msg": "success",
-    "data": { // Shop实体 }
+    "data": { [ // Shop实体数组 ] }
 }
 ```
 字段解释
@@ -130,5 +130,55 @@ shopId integer
 ```
 xxx: xxxxxx
 ```
+## 搜索店铺
+```
+GET /admin/personal/search
+```
 
+参数
+
+```
+shopId integer
+```
+
+返回
+
+```
+{
+    "code": 0,
+    "msg": "success",
+    "data": { // Shop实体 }
+}
+```
+字段解释
+
+```
+xxx: xxxxxx
+```
+
+## 关闭店铺
+```
+POST /admin/personal/close
+```
+
+参数
+
+```
+shopId integer
+```
+
+返回
+
+```
+{
+    "code": 0,
+    "msg": "success",
+    "data": ""
+}
+```
+字段解释
+
+```
+xxx: xxxxxx
+```
 
