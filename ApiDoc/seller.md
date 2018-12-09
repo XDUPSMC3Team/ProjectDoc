@@ -32,8 +32,10 @@ POST /seller/login
 参数
 
 ```
-username string
-password string
+{
+    "username": string,
+    "password": string
+}
 ```
 
 返回
