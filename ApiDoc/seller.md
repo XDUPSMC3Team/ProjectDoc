@@ -300,6 +300,31 @@ POST /seller/attributeValue
 }
 ```
 
+# 增加 多条 attributeValue
+
+```
+POST /seller/attributeValue
+```
+
+参数
+
+```
+{
+    "attributeKeyId":(int),
+    "attributeValue":""
+}
+```
+
+返回
+
+```
+{
+    "code": 0,
+    "msg": "success",
+    "data":""
+}
+```
+
 # 根据 attributeKey 查找 attributeValue
 
 ```
@@ -318,11 +343,11 @@ POST /seller/attributeValue/{attributeKey}
 {
     "code": 0,
     "msg": "success",
-    "data":{{
+    "data":[{
         "id":,
         "attributeKeyId":
         "attributeValue":
-    }}
+    }]
 }
 ```
 # 增加一条productSpecs
