@@ -61,7 +61,6 @@ POST /seller/product
     shopId:(int)    // shopid
     name:"",    // 商品名称
     pic:"",    // 商品图片
-    price: (double) // 商品价格
     description:"",   // 商品描述
     attributeList:"", // 属性选项
 }
